@@ -1,0 +1,48 @@
+
+/*Creating a Table using Html Div*/
+.div-table {
+  display: table;
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+  border: 1px solid #666666;
+  border-spacing: 15px; /* cellspacing:poor IE support for  this */
+}
+.div-table-row {
+  display: table-row;
+  width: 100%;
+  clear: both;
+}
+.div-table-col {
+  float: left; /* fix for  buggy browsers */
+  display: table-column;
+  width: auto;
+  background-color: #fff;  
+  /*border: 1px solid #666666;*/
+  border-spacing: 15px;
+}
+
+/*Ajusta AgGrid al 100% Height*/
+html, body {
+    width: 100%;
+    height: 100%;
+  /*width: 100%;
+  height: 100%;*/
+} 
+
+.ag-root-wrapper-body.ag-layout-normal.ag-focus-managed {
+  height: 100%;
+}
+/*-----------*/
+
+/*Modal Size for Carousel*/
+.custom-modal-style {
+  width: 897px;
+  height: 802px;
+  background-color: aqua;
+  }
+
+
+  .Ela {
+    color: 'red';
+ }

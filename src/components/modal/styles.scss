@@ -1,0 +1,42 @@
+.modal {
+    &__backdrop {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      z-index: 2;
+      background-color: rgba(0, 0, 0, 0.5);
+    }
+  
+        //Form Size
+    &__wrapperF {
+      position: relative;
+      border: 1px solid black;
+      background: lightgray;
+      width: '%80';
+      height: '%80';
+      padding: 20px;
+    }
+
+    //Message Box Size
+    &__wrapper {
+      position: relative;
+      border: 1px solid black;
+      background: white;
+      width: 400px;
+      height: 200px;
+      padding: 20px;
+    }
+      
+    &__close {
+      cursor: pointer;
+      &:hover {
+        color: red;
+      }
+    }
+  
+    &__content {
+      padding: 20px;
+    }
+}
